@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function calculateCost(B1, B2, B3, combinations) {
         if (B1 === 0 || B2 === 0) return 0;
-        let cost = (250 / B1) + (200 / B2) - (40 * B3) - (3 * combinations) + 1800;
+        let cost = (250 / B1) + (200 / B2) - (40 * B3) - (5 * combinations) + 1800;
         return 50 * Math.round(cost / 50);
     }
 
